@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "description": "to do",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json"
+  },
+ 
+  "author": "",
+  "license": "ISC",
+  
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js" defer></script>
+</head>
+<body>
+    <h1>Note Taking App</h1>
+    <div id="button-container">
+        <button id="add-note" class="add-note">+</button>
+        <button id="theme-toggle" class="toggle-theme">Toggle Theme</button>
+    </div>
+    <div id="note-container"></div>
+
+    <template id="note-template">
+        <div class="note">
+            <div class="note-header">
+                <div class="note-title" contenteditable="true"></div>
+                <button class="color-picker-btn">🎨</button>
+                <input type="color" class="color-picker" style="display:none;">
+                <button class="delete-btn">🗑️</button>
+            </div>
+            <div class="note-content" contenteditable="true"></div>
+        </div>
+    </template>
+</body>
+</html>
